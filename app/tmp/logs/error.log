@@ -1,0 +1,276 @@
+2013-09-09 16:39:34 Error: [MissingControllerException] Controller class XxxController could not be found.
+Exception Attributes: array (
+  'class' => 'XxxController',
+  'plugin' => NULL,
+)
+Request URL: /xxx
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 16:46:25 Error: [MissingTableException] Table cake_sessions for model Session was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'cake_sessions',
+  'class' => 'Session',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(3247): Model->setSource('cake_sessions')
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/Session/DatabaseSession.php(96): Model->find('first', Array)
+#3 [internal function]: DatabaseSession->read('lhc48pm2elm8usq...')
+#4 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/CakeSession.php(618): session_start()
+#5 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/CakeSession.php(190): CakeSession::_startSession()
+#6 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/CakeSession.php(216): CakeSession::start()
+#7 /Users/xavier/Project/atsi-rest/lib/Cake/View/Helper/SessionHelper.php(123): CakeSession::check('Message.flash')
+#8 /Users/xavier/Project/atsi-rest/app/View/Layouts/default.ctp(47): SessionHelper->flash()
+#9 /Users/xavier/Project/atsi-rest/lib/Cake/View/View.php(945): include('/Users/xavier/P...')
+#10 /Users/xavier/Project/atsi-rest/lib/Cake/View/View.php(907): View->_evaluate('/Users/xavier/P...', Array)
+#11 /Users/xavier/Project/atsi-rest/lib/Cake/View/View.php(535): View->_render('/Users/xavier/P...')
+#12 /Users/xavier/Project/atsi-rest/lib/Cake/View/View.php(479): View->renderLayout('', 'default')
+#13 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(952): View->render('home', NULL)
+#14 /Users/xavier/Project/atsi-rest/app/Controller/PagesController.php(73): Controller->render('home')
+#15 [internal function]: PagesController->display('home')
+#16 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#17 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#18 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#19 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2013-09-09 16:50:18 Error: [MissingTableException] Table cake_sessions for model Session was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'cake_sessions',
+  'class' => 'Session',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(3247): Model->setSource('cake_sessions')
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/Session/DatabaseSession.php(96): Model->find('first', Array)
+#3 [internal function]: DatabaseSession->read('lhc48pm2elm8usq...')
+#4 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/CakeSession.php(618): session_start()
+#5 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/CakeSession.php(190): CakeSession::_startSession()
+#6 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/CakeSession.php(216): CakeSession::start()
+#7 /Users/xavier/Project/atsi-rest/lib/Cake/View/Helper/SessionHelper.php(123): CakeSession::check('Message.flash')
+#8 /Users/xavier/Project/atsi-rest/app/View/Layouts/default.ctp(47): SessionHelper->flash()
+#9 /Users/xavier/Project/atsi-rest/lib/Cake/View/View.php(945): include('/Users/xavier/P...')
+#10 /Users/xavier/Project/atsi-rest/lib/Cake/View/View.php(907): View->_evaluate('/Users/xavier/P...', Array)
+#11 /Users/xavier/Project/atsi-rest/lib/Cake/View/View.php(535): View->_render('/Users/xavier/P...')
+#12 /Users/xavier/Project/atsi-rest/lib/Cake/View/View.php(479): View->renderLayout('', 'default')
+#13 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(952): View->render('home', NULL)
+#14 /Users/xavier/Project/atsi-rest/app/Controller/PagesController.php(73): Controller->render('home')
+#15 [internal function]: PagesController->display('home')
+#16 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#17 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#18 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#19 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2013-09-09 16:56:25 Error: [MissingControllerException] Controller class RestController could not be found.
+Exception Attributes: array (
+  'class' => 'RestController',
+  'plugin' => NULL,
+)
+Request URL: /rest/
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 16:58:28 Error: Fatal Error (4): syntax error, unexpected ';' in [/Users/xavier/Project/atsi-rest/app/Config/routes.php, line 30]
+2013-09-09 16:58:28 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /v1/users
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/xavier/P...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/xavier/P...', 30, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/xavier/P...', 30, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-09 16:58:43 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /v1/users
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 16:58:58 Error: [MissingControllerException] Controller class V1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'V1Controller',
+  'plugin' => NULL,
+)
+Request URL: /v1/users
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 16:59:04 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /v1.0/users
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 17:00:03 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /v1.0/users
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 17:00:05 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /v1.0/users
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 17:00:10 Error: [MissingControllerException] Controller class V1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'V1Controller',
+  'plugin' => NULL,
+)
+Request URL: /v1/users
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 17:00:15 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /v1.0/users
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 17:00:36 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /v1.0/users
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 17:00:51 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /v1.0/users
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 17:01:17 Error: [MissingControllerException] Controller class V1.0Controller could not be found.
+Exception Attributes: array (
+  'class' => 'V1.0Controller',
+  'plugin' => NULL,
+)
+Request URL: /v1.0/users
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 17:01:21 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /v1/users
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 17:01:46 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /v1/users
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 17:02:03 Error: [MissingControllerException] Controller class V1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'V1Controller',
+  'plugin' => NULL,
+)
+Request URL: /v1/user
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 17:02:26 Error: Fatal Error (4): syntax error, unexpected ')' in [/Users/xavier/Project/atsi-rest/app/Config/routes.php, line 30]
+2013-09-09 17:02:26 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /v1/user
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/xavier/P...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/xavier/P...', 30, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/xavier/P...', 30, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-09 17:02:34 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /v1/user
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 17:03:09 Error: [MissingControllerException] Controller class V1Controller could not be found.
+Exception Attributes: array (
+  'class' => 'V1Controller',
+  'plugin' => NULL,
+)
+Request URL: /v1/user
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 17:03:19 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /v1/users
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 17:03:24 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /v1/users
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 17:04:59 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /v1/users
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-09 17:05:12 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /v1/users
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-10 04:11:52 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /v1/users
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
