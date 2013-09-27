@@ -59,9 +59,9 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'adminySssglx',
-		'password' => 'THYmlZPzNxX5',
-		'database' => 'sandbox',
+		'login' => 'root',
+		'password' => '',
+		'database' => 'directory',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);
