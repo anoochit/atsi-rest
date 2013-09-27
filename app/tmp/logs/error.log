@@ -1111,3 +1111,26 @@ Stack Trace:
 #1 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TaxonomyController), Object(CakeRequest), Object(CakeResponse))
 #2 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2013-09-27 16:31:37 Error: [MissingTableException] Table categories_stores for model CategoriesStore was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories_stores',
+  'class' => 'CategoriesStore',
+  'ds' => 'default',
+)
+Request URL: /store.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(3247): Model->setSource('categories_stor...')
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(1318): Model->getDataSource()
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(862): Model->schema()
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(887): Model->__isset('CategoriesStore')
+#4 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(3316): Model->__get('CategoriesStore')
+#5 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/DboSource.php(1592): Model->joinModel('CategoriesStore', Array)
+#6 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/DboSource.php(1068): DboSource->generateAssociationQuery(Object(Store), Object(Category), 'hasAndBelongsTo...', 'Category', Array, Array, false, NULL)
+#7 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(2700): DboSource->read(Object(Store), Array)
+#8 /Users/xavier/Project/atsi-rest/app/Controller/StoreController.php(7): Model->find('all')
+#9 [internal function]: StoreController->index()
+#10 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(StoreController), Array)
+#11 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(StoreController), Object(CakeRequest), Object(CakeResponse))
+#13 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
