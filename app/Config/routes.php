@@ -27,7 +27,19 @@
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
 	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
-	Router::connect('/v1/users', array('controller' => 'users'));
+	
+	Router::mapResources(array('application','store','category','taxonomy','user'));
+	Router::parseExtensions();
+
+	Router::resourceMap(array(
+	    array('action' => 'index', 'method' => 'GET', 'id' => false),
+	    array('action' => 'view', 'method' => 'GET', 'id' => true),
+	    array('action' => 'add', 'method' => 'POST', 'id' => false),
+	    array('action' => 'edit', 'method' => 'PUT', 'id' => true),
+	    array('action' => 'delete', 'method' => 'DELETE', 'id' => true),
+	    array('action' => 'update', 'method' => 'POST', 'id' => true)
+	));
+
 /**
  * ...and connect the rest of 'Pages' controller's urls.
  */

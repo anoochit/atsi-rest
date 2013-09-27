@@ -274,3 +274,840 @@ Request URL: /v1/users
 Stack Trace:
 #0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-09-27 13:44:59 Error: [MissingControllerException] Controller class AppsController could not be found.
+Exception Attributes: array (
+  'class' => 'AppsController',
+  'plugin' => NULL,
+)
+Request URL: /apps
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-27 13:47:59 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/xavier/Project/atsi-rest/app/Controller/AppsController.php, line 6]
+2013-09-27 13:47:59 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /apps
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/xavier/P...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 13:49:17 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/xavier/Project/atsi-rest/app/Controller/AppsController.php, line 6]
+2013-09-27 13:49:17 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /apps.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/xavier/P...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 13:49:43 Error: [MissingViewException] View file "/Users/xavier/Project/atsi-rest/app/View/Apps/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/xavier/Project/atsi-rest/app/View/Apps/index.ctp',
+)
+Request URL: /apps
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AppsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-27 13:50:55 Error: [MissingViewException] View file "/Users/xavier/Project/atsi-rest/app/View/Apps/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/xavier/Project/atsi-rest/app/View/Apps/index.ctp',
+)
+Request URL: /apps
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AppsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-27 13:51:42 Error: [MissingViewException] View file "/Users/xavier/Project/atsi-rest/app/View/Apps/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/xavier/Project/atsi-rest/app/View/Apps/index.ctp',
+)
+Request URL: /apps
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AppsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-27 13:55:46 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/xavier/Project/atsi-rest/app/Controller/AppsController.php, line 6]
+2013-09-27 13:55:46 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /apps.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/xavier/P...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 13:55:51 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/xavier/Project/atsi-rest/app/Controller/AppsController.php, line 6]
+2013-09-27 13:55:51 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /apps
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/xavier/P...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 13:57:00 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/xavier/Project/atsi-rest/app/Controller/AppsController.php, line 6]
+2013-09-27 13:57:00 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /apps
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/xavier/P...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 13:57:06 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/xavier/Project/atsi-rest/app/Controller/AppsController.php, line 6]
+2013-09-27 13:57:06 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /apps
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/xavier/P...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 13:57:12 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/xavier/Project/atsi-rest/app/Controller/AppsController.php, line 6]
+2013-09-27 13:57:12 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /apps.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/xavier/P...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 13:59:04 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/xavier/Project/atsi-rest/app/Controller/AppsController.php, line 6]
+2013-09-27 13:59:04 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /apps.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/xavier/P...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 13:59:06 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/xavier/Project/atsi-rest/app/Controller/AppsController.php, line 6]
+2013-09-27 13:59:06 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /apps.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/xavier/P...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 13:59:09 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/xavier/Project/atsi-rest/app/Controller/AppsController.php, line 6]
+2013-09-27 13:59:09 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /apps.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/xavier/P...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 13:59:18 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/xavier/Project/atsi-rest/app/Controller/AppsController.php, line 6]
+2013-09-27 13:59:18 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /apps
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/xavier/P...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 13:59:20 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/xavier/Project/atsi-rest/app/Controller/AppsController.php, line 6]
+2013-09-27 13:59:20 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /apps
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/xavier/P...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 14:00:05 Error: [MissingTableException] Table cake_sessions for model Session was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'cake_sessions',
+  'class' => 'Session',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(3247): Model->setSource('cake_sessions')
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/Session/DatabaseSession.php(96): Model->find('first', Array)
+#3 [internal function]: DatabaseSession->read('fg5g4lvetad2hs0...')
+#4 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/CakeSession.php(618): session_start()
+#5 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/CakeSession.php(190): CakeSession::_startSession()
+#6 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/CakeSession.php(216): CakeSession::start()
+#7 /Users/xavier/Project/atsi-rest/lib/Cake/View/Helper/SessionHelper.php(123): CakeSession::check('Message.flash')
+#8 /Users/xavier/Project/atsi-rest/app/View/Layouts/default.ctp(47): SessionHelper->flash()
+#9 /Users/xavier/Project/atsi-rest/lib/Cake/View/View.php(945): include('/Users/xavier/P...')
+#10 /Users/xavier/Project/atsi-rest/lib/Cake/View/View.php(907): View->_evaluate('/Users/xavier/P...', Array)
+#11 /Users/xavier/Project/atsi-rest/lib/Cake/View/View.php(535): View->_render('/Users/xavier/P...')
+#12 /Users/xavier/Project/atsi-rest/lib/Cake/View/View.php(479): View->renderLayout('', 'default')
+#13 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(952): View->render('home', NULL)
+#14 /Users/xavier/Project/atsi-rest/app/Controller/PagesController.php(73): Controller->render('home')
+#15 [internal function]: PagesController->display('home')
+#16 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#17 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#18 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#19 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2013-09-27 14:00:05 Error: [MissingTableException] Table cake_sessions for model Session was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'cake_sessions',
+  'class' => 'Session',
+  'ds' => 'default',
+)
+Request URL: /
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(3247): Model->setSource('cake_sessions')
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/Session/DatabaseSession.php(96): Model->find('first', Array)
+#3 [internal function]: DatabaseSession->read('fg5g4lvetad2hs0...')
+#4 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/CakeSession.php(618): session_start()
+#5 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/CakeSession.php(190): CakeSession::_startSession()
+#6 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/CakeSession.php(216): CakeSession::start()
+#7 /Users/xavier/Project/atsi-rest/lib/Cake/View/Helper/SessionHelper.php(123): CakeSession::check('Message.flash')
+#8 /Users/xavier/Project/atsi-rest/app/View/Layouts/default.ctp(47): SessionHelper->flash()
+#9 /Users/xavier/Project/atsi-rest/lib/Cake/View/View.php(945): include('/Users/xavier/P...')
+#10 /Users/xavier/Project/atsi-rest/lib/Cake/View/View.php(907): View->_evaluate('/Users/xavier/P...', Array)
+#11 /Users/xavier/Project/atsi-rest/lib/Cake/View/View.php(535): View->_render('/Users/xavier/P...')
+#12 /Users/xavier/Project/atsi-rest/lib/Cake/View/View.php(479): View->renderLayout('', 'default')
+#13 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(952): View->render('home', NULL)
+#14 /Users/xavier/Project/atsi-rest/app/Controller/PagesController.php(73): Controller->render('home')
+#15 [internal function]: PagesController->display('home')
+#16 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#17 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#18 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#19 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2013-09-27 14:01:14 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/xavier/Project/atsi-rest/app/Controller/AppsController.php, line 6]
+2013-09-27 14:01:14 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /apps.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/xavier/P...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 14:01:25 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/xavier/Project/atsi-rest/app/Controller/AppsController.php, line 6]
+2013-09-27 14:01:25 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /apps
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/xavier/P...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/xavier/P...', 6, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 14:04:22 Error: [MissingControllerException] Controller class AppsController could not be found.
+Exception Attributes: array (
+  'class' => 'AppsController',
+  'plugin' => NULL,
+)
+Request URL: /apps
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-27 14:04:28 Error: [MissingControllerException] Controller class ApplicationController could not be found.
+Exception Attributes: array (
+  'class' => 'ApplicationController',
+  'plugin' => NULL,
+)
+Request URL: /application
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-27 14:04:31 Error: [MissingControllerException] Controller class ApplicationsController could not be found.
+Exception Attributes: array (
+  'class' => 'ApplicationsController',
+  'plugin' => NULL,
+)
+Request URL: /applications
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-27 14:04:36 Error: [MissingControllerException] Controller class ApplicationController could not be found.
+Exception Attributes: array (
+  'class' => 'ApplicationController',
+  'plugin' => NULL,
+)
+Request URL: /application
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-27 14:05:34 Error: [MissingTableException] Table applications for model Application was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'applications',
+  'class' => 'Application',
+  'ds' => 'default',
+)
+Request URL: /application
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(3247): Model->setSource('applications')
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#2 /Users/xavier/Project/atsi-rest/app/Controller/ApplicationController.php(6): Model->find('all')
+#3 [internal function]: ApplicationController->index()
+#4 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicationController), Array)
+#5 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ApplicationController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-09-27 14:05:58 Error: [MissingViewException] View file "/Users/xavier/Project/atsi-rest/app/View/Application/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/xavier/Project/atsi-rest/app/View/Application/index.ctp',
+)
+Request URL: /application
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ApplicationController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-27 14:06:22 Error: [MissingViewException] View file "/Users/xavier/Project/atsi-rest/app/View/Application/json/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/xavier/Project/atsi-rest/app/View/Application/json/index.ctp',
+)
+Request URL: /application.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/View/JsonView.php(88): View->_getViewFileName(NULL)
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(952): JsonView->render(NULL, NULL)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ApplicationController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-27 14:06:32 Error: [MissingViewException] View file "/Users/xavier/Project/atsi-rest/app/View/Application/xml/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/xavier/Project/atsi-rest/app/View/Application/xml/index.ctp',
+)
+Request URL: /application.xml
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/View/XmlView.php(91): View->_getViewFileName(NULL)
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(952): XmlView->render(NULL, NULL)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ApplicationController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-27 14:10:21 Error: [MissingControllerException] Controller class CategoryController could not be found.
+Exception Attributes: array (
+  'class' => 'CategoryController',
+  'plugin' => NULL,
+)
+Request URL: /category
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-27 14:11:57 Error: [MissingControllerException] Controller class CategoryController could not be found.
+Exception Attributes: array (
+  'class' => 'CategoryController',
+  'plugin' => NULL,
+)
+Request URL: /category
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-27 14:12:01 Error: [MissingControllerException] Controller class CategoryController could not be found.
+Exception Attributes: array (
+  'class' => 'CategoryController',
+  'plugin' => NULL,
+)
+Request URL: /category
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-27 14:12:27 Error: Fatal Error (64): Cannot redeclare class Categoty in [/Users/xavier/Project/atsi-rest/app/Model/Category.php, line 8]
+2013-09-27 14:12:27 Error: [FatalErrorException] Cannot redeclare class Categoty
+Request URL: /category
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/xavier/P...', 8)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/xavier/P...', 8, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/xavier/P...', 8, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 14:13:16 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /category
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(3247): Model->setSource('categories')
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#2 /Users/xavier/Project/atsi-rest/app/Controller/CategoryController.php(6): Model->find('all')
+#3 [internal function]: CategoryController->index()
+#4 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#5 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-09-27 14:14:00 Error: [MissingTableException] Table categories for model Category was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'categories',
+  'class' => 'Category',
+  'ds' => 'default',
+)
+Request URL: /category
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(3247): Model->setSource('categories')
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(2700): Model->getDataSource()
+#2 /Users/xavier/Project/atsi-rest/app/Controller/CategoryController.php(6): Model->find('all')
+#3 [internal function]: CategoryController->index()
+#4 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#5 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-09-27 14:14:20 Error: [MissingViewException] View file "/Users/xavier/Project/atsi-rest/app/View/Category/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/xavier/Project/atsi-rest/app/View/Category/index.ctp',
+)
+Request URL: /category
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-27 14:41:12 Error: Fatal Error (1): Call to a member function schema() on a non-object in [/Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php, line 3316]
+2013-09-27 14:41:12 Error: [FatalErrorException] Call to a member function schema() on a non-object
+Request URL: /application.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/xavier/P...', 3316)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/xavier/P...', 3316, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/xavier/P...', 3316, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 14:41:27 Error: Fatal Error (1): Call to a member function schema() on a non-object in [/Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php, line 3316]
+2013-09-27 14:41:27 Error: [FatalErrorException] Call to a member function schema() on a non-object
+Request URL: /application.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/xavier/P...', 3316)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/xavier/P...', 3316, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/xavier/P...', 3316, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 14:44:55 Error: Fatal Error (1): Call to a member function schema() on a non-object in [/Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php, line 3316]
+2013-09-27 14:44:55 Error: [FatalErrorException] Call to a member function schema() on a non-object
+Request URL: /application.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/xavier/P...', 3316)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/xavier/P...', 3316, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/xavier/P...', 3316, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 14:44:57 Error: Fatal Error (1): Call to a member function schema() on a non-object in [/Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php, line 3316]
+2013-09-27 14:44:57 Error: [FatalErrorException] Call to a member function schema() on a non-object
+Request URL: /application.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/xavier/P...', 3316)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/xavier/P...', 3316, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/xavier/P...', 3316, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 14:45:03 Error: Fatal Error (1): Call to a member function schema() on a non-object in [/Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php, line 3316]
+2013-09-27 14:45:03 Error: [FatalErrorException] Call to a member function schema() on a non-object
+Request URL: /application
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/xavier/P...', 3316)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/xavier/P...', 3316, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/xavier/P...', 3316, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 14:45:03 Error: Fatal Error (1): Call to a member function schema() on a non-object in [/Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php, line 3316]
+2013-09-27 14:45:03 Error: [FatalErrorException] Call to a member function schema() on a non-object
+Request URL: /application
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/xavier/P...', 3316)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/xavier/P...', 3316, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/xavier/P...', 3316, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 14:45:05 Error: Fatal Error (1): Call to a member function schema() on a non-object in [/Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php, line 3316]
+2013-09-27 14:45:05 Error: [FatalErrorException] Call to a member function schema() on a non-object
+Request URL: /application
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/xavier/P...', 3316)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/xavier/P...', 3316, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/xavier/P...', 3316, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 14:48:49 Error: Fatal Error (1): Call to a member function schema() on a non-object in [/Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php, line 3316]
+2013-09-27 14:48:49 Error: [FatalErrorException] Call to a member function schema() on a non-object
+Request URL: /application
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/xavier/P...', 3316)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/xavier/P...', 3316, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/xavier/P...', 3316, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 14:52:31 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /user
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-27 15:04:51 Error: [MissingTableException] Table applications_categories for model ApplicationsCategory was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'applications_categories',
+  'class' => 'ApplicationsCategory',
+  'ds' => 'default',
+)
+Request URL: /application
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(3247): Model->setSource('applications_ca...')
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(1318): Model->getDataSource()
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(862): Model->schema()
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(887): Model->__isset('ApplicationsCat...')
+#4 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(3316): Model->__get('ApplicationsCat...')
+#5 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/DboSource.php(1592): Model->joinModel('ApplicationsCat...', Array)
+#6 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/DboSource.php(1068): DboSource->generateAssociationQuery(Object(Application), Object(Category), 'hasAndBelongsTo...', 'MemberOf', Array, Array, false, NULL)
+#7 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(2700): DboSource->read(Object(Application), Array)
+#8 /Users/xavier/Project/atsi-rest/app/Controller/ApplicationController.php(6): Model->find('all')
+#9 [internal function]: ApplicationController->index()
+#10 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicationController), Array)
+#11 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#12 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ApplicationController), Object(CakeRequest), Object(CakeResponse))
+#13 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-09-27 15:05:41 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ApplicationsCategory.category_id' in 'on clause'
+Request URL: /application
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `MemberO...', Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `MemberO...', Array, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/DboSource.php(1251): DboSource->fetchAll('SELECT `MemberO...', false)
+#4 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/DboSource.php(1112): DboSource->queryAssociation(Object(Application), Object(Category), 'hasAndBelongsTo...', 'MemberOf', Array, Array, true, Array, 0, Array)
+#5 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(2700): DboSource->read(Object(Application), Array)
+#6 /Users/xavier/Project/atsi-rest/app/Controller/ApplicationController.php(6): Model->find('all')
+#7 [internal function]: ApplicationController->index()
+#8 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicationController), Array)
+#9 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ApplicationController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-09-27 15:09:08 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Application.user_app_id' in 'on clause'
+Request URL: /application
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Applica...', false)
+#4 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(2700): DboSource->read(Object(Application), Array)
+#5 /Users/xavier/Project/atsi-rest/app/Controller/ApplicationController.php(6): Model->find('all')
+#6 [internal function]: ApplicationController->index()
+#7 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicationController), Array)
+#8 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ApplicationController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-09-27 15:29:25 Error: Fatal Error (64): Cannot redeclare Application::$hasAndBelongsToMany in [/Users/xavier/Project/atsi-rest/app/Model/Application.php, line 22]
+2013-09-27 15:29:25 Error: [FatalErrorException] Cannot redeclare Application::$hasAndBelongsToMany
+Request URL: /application.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Users/xavier/P...', 22)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Users/xavier/P...', 22, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Users/xavier/P...', 22, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 15:29:41 Error: Fatal Error (4): syntax error, unexpected ''Store'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/Users/xavier/Project/atsi-rest/app/Model/Application.php, line 17]
+2013-09-27 15:29:41 Error: [FatalErrorException] syntax error, unexpected ''Store'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /application.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/xavier/P...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/xavier/P...', 17, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/xavier/P...', 17, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 15:30:27 Error: Fatal Error (4): syntax error, unexpected ''Store'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/Users/xavier/Project/atsi-rest/app/Model/Application.php, line 17]
+2013-09-27 15:30:27 Error: [FatalErrorException] syntax error, unexpected ''Store'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /application.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/xavier/P...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/xavier/P...', 17, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/xavier/P...', 17, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 15:30:31 Error: [MissingControllerException] Controller class StoreController could not be found.
+Exception Attributes: array (
+  'class' => 'StoreController',
+  'plugin' => NULL,
+)
+Request URL: /store.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-27 15:31:35 Error: [MissingViewException] View file "/Users/xavier/Project/atsi-rest/app/View/Store/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/xavier/Project/atsi-rest/app/View/Store/index.ctp',
+)
+Request URL: /store
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(StoreController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-27 15:32:00 Error: [MissingViewException] View file "/Users/xavier/Project/atsi-rest/app/View/Store/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/xavier/Project/atsi-rest/app/View/Store/index.ctp',
+)
+Request URL: /store
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(StoreController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-27 15:32:49 Error: Fatal Error (4): syntax error, unexpected ''Store'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/Users/xavier/Project/atsi-rest/app/Model/Application.php, line 17]
+2013-09-27 15:32:49 Error: [FatalErrorException] syntax error, unexpected ''Store'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /application.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/xavier/P...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/xavier/P...', 17, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/xavier/P...', 17, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 15:33:44 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ApplicationsStore.store_id' in 'on clause'
+Request URL: /application.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Store`....', Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Store`....', Array, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/DboSource.php(1251): DboSource->fetchAll('SELECT `Store`....', false)
+#4 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/DboSource.php(1112): DboSource->queryAssociation(Object(Application), Object(Store), 'hasAndBelongsTo...', 'Store', Array, Array, true, Array, 0, Array)
+#5 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(2700): DboSource->read(Object(Application), Array)
+#6 /Users/xavier/Project/atsi-rest/app/Controller/ApplicationController.php(6): Model->find('all')
+#7 [internal function]: ApplicationController->index()
+#8 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicationController), Array)
+#9 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ApplicationController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-09-27 15:42:40 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`Category`.`category_id` = (1)' at line 1
+Request URL: /category.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Sub Cat...', Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Sub Cat...', Array, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/DboSource.php(1339): DboSource->fetchAll('SELECT `Sub Cat...', false)
+#4 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/DboSource.php(1201): DboSource->fetchAssociated(Object(Category), 'SELECT `Sub Cat...', Array)
+#5 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Datasource/DboSource.php(1112): DboSource->queryAssociation(Object(Category), Object(Category), 'hasMany', 'Sub Category', Array, Array, true, Array, 0, Array)
+#6 /Users/xavier/Project/atsi-rest/lib/Cake/Model/Model.php(2700): DboSource->read(Object(Category), Array)
+#7 /Users/xavier/Project/atsi-rest/app/Controller/CategoryController.php(6): Model->find('all')
+#8 [internal function]: CategoryController->index()
+#9 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoryController), Array)
+#10 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(CategoryController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-09-27 15:52:45 Error: [MissingControllerException] Controller class TaxonomyController could not be found.
+Exception Attributes: array (
+  'class' => 'TaxonomyController',
+  'plugin' => NULL,
+)
+Request URL: /taxonomy.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-27 15:55:38 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [/Users/xavier/Project/atsi-rest/app/Model/Taxonomy.php, line 13]
+2013-09-27 15:55:38 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /taxonomy.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/xavier/P...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/xavier/P...', 13, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/xavier/P...', 13, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 15:55:48 Error: Fatal Error (4): syntax error, unexpected '}', expecting ',' or ';' in [/Users/xavier/Project/atsi-rest/app/Model/Taxonomy.php, line 13]
+2013-09-27 15:55:48 Error: [FatalErrorException] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /taxonomy.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/xavier/P...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/xavier/P...', 13, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/xavier/P...', 13, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 15:59:27 Error: [MissingActionException] Action TaxonomyController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'TaxonomyController',
+  'action' => '1',
+)
+Request URL: /taxonomy/1.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TaxonomyController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-27 16:00:53 Error: [MissingViewException] View file "/Users/xavier/Project/atsi-rest/app/View/Taxonomy/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/xavier/Project/atsi-rest/app/View/Taxonomy/view.ctp',
+)
+Request URL: /taxonomy/view?id=1
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TaxonomyController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-27 16:02:10 Error: [MissingActionException] Action TaxonomyController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'TaxonomyController',
+  'action' => '1',
+)
+Request URL: /taxonomy/1.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TaxonomyController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-27 16:02:55 Error: Fatal Error (4): syntax error, unexpected 'Router' (T_STRING), expecting function (T_FUNCTION) in [/Users/xavier/Project/atsi-rest/app/Controller/TaxonomyController.php, line 6]
+2013-09-27 16:02:55 Error: [FatalErrorException] syntax error, unexpected 'Router' (T_STRING), expecting function (T_FUNCTION)
+Request URL: /taxonomy/1.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/xavier/P...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/xavier/P...', 6, Array)
+#2 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/xavier/P...', 6, Array)
+#3 /Users/xavier/Project/atsi-rest/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-27 16:03:34 Error: [MissingActionException] Action TaxonomyController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'TaxonomyController',
+  'action' => '1',
+)
+Request URL: /taxonomy/1.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TaxonomyController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-27 16:04:32 Error: [MissingControllerException] Controller class TaxonomyiesController could not be found.
+Exception Attributes: array (
+  'class' => 'TaxonomyiesController',
+  'plugin' => NULL,
+)
+Request URL: /taxonomyies/1,json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-27 16:04:39 Error: [MissingControllerException] Controller class TaxonomiesController could not be found.
+Exception Attributes: array (
+  'class' => 'TaxonomiesController',
+  'plugin' => NULL,
+)
+Request URL: /taxonomies/1,json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-27 16:04:43 Error: [MissingActionException] Action TaxonomyController::1,json() could not be found.
+Exception Attributes: array (
+  'controller' => 'TaxonomyController',
+  'action' => '1,json',
+)
+Request URL: /taxonomy/1,json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TaxonomyController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-27 16:04:50 Error: [MissingActionException] Action TaxonomyController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'TaxonomyController',
+  'action' => '1',
+)
+Request URL: /taxonomy/1.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TaxonomyController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-27 16:06:32 Error: [MissingActionException] Action TaxonomyController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'TaxonomyController',
+  'action' => '1',
+)
+Request URL: /taxonomy/1.xml
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TaxonomyController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-27 16:09:52 Error: [MissingControllerException] Controller class TaxonomiesController could not be found.
+Exception Attributes: array (
+  'class' => 'TaxonomiesController',
+  'plugin' => NULL,
+)
+Request URL: /taxonomies/1.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-27 16:10:02 Error: [MissingControllerException] Controller class TaxonomiesController could not be found.
+Exception Attributes: array (
+  'class' => 'TaxonomiesController',
+  'plugin' => NULL,
+)
+Request URL: /taxonomies/1.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-27 16:10:27 Error: [MissingControllerException] Controller class TaxonomiesController could not be found.
+Exception Attributes: array (
+  'class' => 'TaxonomiesController',
+  'plugin' => NULL,
+)
+Request URL: /taxonomies/1.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-27 16:10:37 Error: [MissingActionException] Action TaxonomyController::1() could not be found.
+Exception Attributes: array (
+  'controller' => 'TaxonomyController',
+  'action' => '1',
+)
+Request URL: /taxonomy/1.json
+Stack Trace:
+#0 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/xavier/Project/atsi-rest/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(TaxonomyController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/xavier/Project/atsi-rest/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
