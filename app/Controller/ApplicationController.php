@@ -12,6 +12,14 @@ class ApplicationController extends AppController {
         
     }
 
+    public function view($id) {
+        $applications = $this->Application->findById($id);
+        $this->set(array(
+            'applications' => $applications,
+            '_serialize' => array('applications')
+        ));
+    }
+
 	/*
     public function view($id) {
         $recipe = $this->Recipe->findById($id);

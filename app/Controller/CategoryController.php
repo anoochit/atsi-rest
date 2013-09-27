@@ -12,4 +12,12 @@ class CategoryController extends AppController {
         
     }
 
+    public function view($id) {
+        $category = $this->Category->findById($id);
+        $this->set(array(
+            'category' => $category,
+            '_serialize' => array('category')
+        ));
+    }
+
 }

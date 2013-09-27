@@ -3,6 +3,9 @@ REST API v1.0 Resources
 
 REST access where method specifies the desired result format (e.g. xml, json). These routes are HTTP Request Method sensitive.
 
+ * SandBox http://sandbox-redcloud.rhcloud.com/
+ * Production N/A
+
 
 Application
 -------------
